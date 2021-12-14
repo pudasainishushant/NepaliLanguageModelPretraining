@@ -27,6 +27,7 @@ model = AutoModelForMaskedLM.from_pretrained("Shushant/NepNewsBERT")
 
 from transformers import pipeline
 
-fill_mask = pipeline( "fill-mask", model=model, tokenizer=tokenizer, ) from pprint import pprint pprint(fill_mask(f"तिमीलाई कस्तो {tokenizer.mask_token}."))
+fill_mask = pipeline( "fill-mask", model=model, tokenizer=tokenizer, ) 
+from pprint import pprint pprint(fill_mask(f"तिमीलाई कस्तो {tokenizer.mask_token}."))
 
 ```
