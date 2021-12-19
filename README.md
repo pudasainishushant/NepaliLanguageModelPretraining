@@ -14,7 +14,6 @@
 - First install transformers in your device using 
 ```console
 foo@bar:~$ pip install transformers
-foo
 ```
 
 ```
