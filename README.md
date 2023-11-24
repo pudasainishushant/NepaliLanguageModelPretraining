@@ -1,11 +1,11 @@
-## NepBERT
+## NepaliBERT
 
 ![NEPBERT](nepBERT.png "NEPBERT")
 
-### Purpose  Train a custom language model for Nepali dataset to generate proper word embedding for Nepali text
+### Purpose  Train a custom language model for the Nepali dataset to generate proper word embedding for Nepali text
 
 ## Features
-- Trained on more than 200 million of Nepali sentences from Nepali news dataset scrapped from several Nepali news websites
+- Trained on more than 200 million Nepali sentences from Nepali news dataset scrapped from several Nepali news websites
 - Text perplexity score of 60.78 on evaluation dataset containing more than 3000 Nepali sentences
 - Trained using NVIDIA-RTX 2080 for 3 days
 
